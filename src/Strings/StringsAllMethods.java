@@ -24,13 +24,6 @@ public class StringsAllMethods {
         System.out.println("Char Array: " + Arrays.toString(arr));
     }
 
-    // 4. StringBuilder.reverse()
-    // Reverses the string efficiently
-    static void reverseMethod(String s) {
-        StringBuilder sb = new StringBuilder(s);
-        System.out.println("Reversed: " + sb.reverse());
-    }
-
     // 5. toLowerCase()
     // Converts all characters to lowercase
     static void toLowerCaseMethod(String s) {
@@ -149,7 +142,6 @@ public class StringsAllMethods {
         lengthMethod(s);
         charAtMethod(s);
         toCharArrayMethod(s);
-        reverseMethod(s);
         toLowerCaseMethod(s);
         toUpperCaseMethod(s);
         equalsMethod(s);
