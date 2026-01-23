@@ -18,6 +18,7 @@ public class A_Power_B {
         }
         return num*half*half;
     }
+
     public static void main(String[] args) {
         int num = 5;
         int pow = 2;

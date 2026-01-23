@@ -1,6 +1,7 @@
 package Recursion;
 
 public class Print1_N {
+
     static void print(int n){
         if(n == 0){
             return;
