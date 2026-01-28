@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Strings;
 
 public class ReverseString {
     static void reverse(StringBuilder sb, int s, int e){
